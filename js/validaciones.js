@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 $(document).ready(function(){
 
 	$('form').submit(function(e){
@@ -31,3 +32,10 @@ $(document).ready(function(){
 	});
 
 });
+=======
+//Slider
+$('.carousel').carousel({
+	interval: 1000
+})
+// Fin Slider
+>>>>>>> Stashed changes
