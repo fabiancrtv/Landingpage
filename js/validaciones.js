@@ -32,10 +32,4 @@ $(document).ready(function(){
 	});
 
 });
-=======
-//Slider
-$('.carousel').carousel({
-	interval: 1000
-})
-// Fin Slider
->>>>>>> Stashed changes
+
