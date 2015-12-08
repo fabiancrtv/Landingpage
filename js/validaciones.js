@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
 $(document).ready(function(){
-
 	$('form').submit(function(e){
 		e.preventDefault();
 		var nombreUsuario = $('form input[name="nombre"]').val();
