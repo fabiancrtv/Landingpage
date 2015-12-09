@@ -81,4 +81,32 @@ body{
 			}
 		}
 	}
+
+	
+	footer{
+	height: 200px;
+	background-color: #64706c;
+
+		.columna{
+		color: #fff;
+		padding: 20px;
+		display: inline-block;
+		width: 33%;
+		vertical-align: top;
+
+			address { 
+	   		 display: block;
+	   		 font-style: italic;
+			}	
+
+			a{
+				
+			font-size: 20px;
+			color: #FFF;
+			padding: 10px;
+				
+			}	
+		}
+	}
+
 }
