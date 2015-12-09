@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<title>Examen Gourmet</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="bootstrap blablabla"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style_1.css">
+</head>
+<body>
+	<header>
+		<nav class="nav nav-tabs">
+			<ul>
+				<li>
+					<span class="material-icons">local_dining</span>
+				</li>
+				<li id="m_hide" style="display:none;">
+					<a href="">Home</a>
+				</li>
+				<li id="m_hide" style="display:none;">
+					<a href="#sobre-nosotros">Sobre Nosotros</a>
+				</li>
+				<li id="m_hide" style="display:none;">
+					<a href="#contacto">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="miSlide" class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#miSlide" data-slide-to="0" class="active"></li>
+			<li data-target="#miSlide" data-slide-to="1"></li>
+			<li data-target="#miSlide" data-slide-to="2"></li>		
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="resources/pan.jpg" class="adaptar img-responsive" alt="Responsive image">
+			</div>
+			<div class="item">
+
+				<img src="resources/esparragos.jpg" class="adaptar img-responsive" alt="Responsive image">
+			</div>
+			<div class="item">
+				<img src="resources/ostiones.jpg" class="adaptar img-responsive" alt="Responsive image">
+			</div>
+		</div>
+		<a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</section>
+	<section class="col-md-12 col-sm-12 col-xs-12">
+		<div id="contiene">
+			<div class="col-md-12 col-sm-12 col-xs-12"><h2>Acerca de Nosotros</h2></div>
+				<p class="col-md-6 col-sm-6 col-xs-12">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<p class="col-md-6 col-sm-6 col-xs-12">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+	</section>
+	<section class="col-md-12">
+		<div id="contiene">
+			<div class="col-md-12"><h2>Contáctenos</h2></div>
+				<form method="get" action="mail.php" class="col-md-12">
+					<div class="col-md-6">
+						<label>Nombre</label>
+						<input type="text" name="nombre" placeholder="Escriba su nombre"/>
+					</div>
+					<div class="col-md-6">
+						<label>Email</label>
+						<input type="text" name="email" placeholder="Escriba su email"/>
+					</div>
+					<div class="col-md-12">
+						<label>Comentarios y Sugerencias</label>
+						<textarea name="comentario" placeholder="Escriba sus comentarios"/></textarea>
+					</div>
+					<div class="col-md-12">
+						<input type="submit" value="enviar"/>
+					</div>
+				</form>
+			</div>
+	</section>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/validaciones.js"></script>
+</body>
+</html>
