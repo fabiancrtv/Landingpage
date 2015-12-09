@@ -68,7 +68,7 @@ body section.slide div.carousel-inner div.item img {
   width: 100%;
 }
 
-body section div#contiene-nosotros {
+body section div#contiene {
   padding-top: 20px;
   margin: 0 auto;
   width: 1000px;
@@ -77,28 +77,4 @@ body section div#contiene-nosotros {
 body section div h2 {
   text-align: center;
   padding-bottom: 20px;
-}
-
-body footer {
-  height: 200px;
-  background-color: #64706c;
-}
-
-body footer .columna {
-  color: #fff;
-  padding: 20px;
-  display: inline-block;
-  width: 33%;
-  vertical-align: top;
-}
-
-body footer .columna address {
-  display: block;
-  font-style: italic;
-}
-
-body footer .columna a {
-  font-size: 20px;
-  color: #FFF;
-  padding: 10px;
 }
