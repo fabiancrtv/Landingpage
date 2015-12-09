@@ -8,12 +8,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-
 	<header>
 		<nav class="nav nav-tabs">
 			<ul>
@@ -32,8 +29,6 @@
 			</ul>
 		</nav>
 	</header>
-
-
 	<section id="miSlide" class="carousel slide">
 		<ol class="carousel-indicators">
 			<li data-target="#miSlide" data-slide-to="0" class="active"></li>
@@ -42,88 +37,129 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="resources/pan.jpg" class="adaptar img-responsive" alt="Responsive image">
+				<figure>
+					<img src="resources/pan.jpg" class="adaptar img-responsive" alt="Responsive image">
+					<figcaption>
+						<h1>Breakfast</h1>
+						<p>
+							<strong>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et.</strong>
+						</p>
+					</figcaption>
+				</figure>
 			</div>
 			<div class="item">
-
-				<img src="resources/esparragos.jpg" class="adaptar img-responsive" alt="Responsive image">
+				<figure>
+					<img src="resources/esparragos.jpg" class="adaptar img-responsive" alt="Responsive image">
+					<figcaption>
+						<h1>Lunch</h1>
+						<p>
+							<strong>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et.</strong>
+						</p>
+					</figcaption>
+				</figure>
 			</div>
 			<div class="item">
-				<img src="resources/ostiones.jpg" class="adaptar img-responsive" alt="Responsive image">
+				<figure>
+					<img src="resources/ostiones.jpg" class="adaptar img-responsive" alt="Responsive image">
+					<figcaption>
+						<h1>Dinner</h1>
+						<p>
+							<strong>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et.</strong>
+						</p>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
 		<a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 		<a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 	</section>
-
-
-	<section class="col-md-12">
-		<div id="contiene-nosotros">
-			<div class="col-md-12"><h2>Acerca de Nosotros</h2></div>
-				<p class="col-md-6">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<p class="col-md-6">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+	<div class="container">
+		<section class="col-md-12">
+			<div id="contiene-nosotros">
+				<div class="col-md-12"><h2>Acerca de Nosotros</h2></div>
+					<p id="acerca-uno" class="col-md-6">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<p id="acerca-dos" class="col-md-6">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
 			</div>
-	</section>
-
-
-	<section class="col-md-12">
-		<div id="contiene-contacto">
-			<div class="col-md-12"><h2>Contáctenos</h2></div>
-				<form method="get" action="mail.php" class="col-md-12">
-					<label>Nombre</label>
-					<input type="text" name="nombre" placeholder="Escriba su nombre"/>
-					<label>Email</label>
-					<input type="text" name="email" placeholder="Escriba su email"/>
-					<label>Comentarios y Sugerencias</label>
-					<textarea name="comentario" placeholder="Escriba sus comentarios"/></textarea>
-					<input type="submit" value="enviar"/>
-				</form>
-			</div>
-	</section>
-
-	<footer>
-			
-		<div class="columna">
-			<h3>Productos</h3>
-			<ul>
-				<li>Desayunos</li>
-				<li>Almuerzos</li>
-				<li>Postres</li>
-			</ul>
-		</div>
-		<div class="columna">
-			<h3>Dirección</h3>
-			<address>
-				Obispo Pérez de Espinoza 72<br>
-				Providencia, Región Metropolitana<br>
-			</address>
-		</div>
-		<div class="columna">
-			<h3> Redes Sociales </h3>
-			<a href="#"> <span class= "icono ion-social-facebook"> </span></a>
-			<a href="#"> <span class= "icono ion-social-twitter"> </span></a>
-			<a href="#"> <span class= "icono ion-social-pinterest"> </span></a>
-			<a href="#"> <span class= "icono ion-social-instagram"> </span></a>
-			
-		</div>
-	</footer>
-			
+		</section>
+		<section class="col-md-12">
+			<div id="contiene-contacto">
+				<div class="col-md-12"><h2>Contáctenos</h2></div>
+					<form method="get" action="mail.php" class="col-md-12">
+						<div>
+							<label>Nombre</label>
+							<input type="text" name="nombre" placeholder="Escriba su nombre"/>
+						</div>
+						<div>
+							<label>Email</label>
+							<input type="text" name="email" placeholder="Escriba su email"/>
+						</div>
+						<div>
+							<label>Comentarios y Sugerencias</label>
+							<textarea name="comentario" placeholder="Escriba sus comentarios"/></textarea>
+						</div>
+						<div id="d-enviar">
+							<input class="btn btn-success" type="submit" value="enviar"/>
+						</div>
+					</form>
+				</div>
+		</section>
+	</div>
+	<footer>  
+        <div class="columna">
+            <h3>Productos</h3>
+            <ul>
+                <li>Desayunos</li>
+                <li>Almuerzos</li>
+                <li>Postres</li>
+            </ul>
+        </div>
+        <div class="columna">
+            <h3>Dirección</h3>
+            <address>
+                Obispo Pérez de Espinoza 72<br>
+                Providencia, Región Metropolitana<br>
+            </address>
+        </div>
+        <div class="columna">
+            <h3> Redes Sociales </h3>
+            <a href="#"> <span class= "icono ion-social-facebook"> </span></a>
+            <a href="#"> <span class= "icono ion-social-twitter"> </span></a>
+            <a href="#"> <span class= "icono ion-social-pinterest"> </span></a>
+            <a href="#"> <span class= "icono ion-social-instagram"> </span></a>
+            <div class="fb-like"></div>
+        </div>
+    </footer>
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/validaciones.js"></script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
+		  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+	</script>
 </body>
 </html>

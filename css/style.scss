@@ -22,17 +22,27 @@ body{
 					&#m_hide{
 						top:30px;	
 					}
+					@media screen and (max-width: 720px){
+						&#m_hide{
+							top:15px;
+						}
+					}
 					span{
 						&.material-icons{
 							font-size: 80px;
 							position: relative;
 							top: 7px;
 							color: #760000;
+							@media screen and (max-width: 720px){
+								font-size: 50px;
+							}
 						}
 						&:hover{
 							color: #171814;
 							cursor: pointer;
 						}
+
+
 					}
 					a{
 						font-size: 27px;
@@ -43,6 +53,9 @@ body{
 						&:hover{
 							color: #171814;
 							text-decoration: none;
+						}
+						@media screen and (max-width: 720px){
+							font-size: 20px;
 						}
 					}
 					&.hide{
@@ -61,52 +74,110 @@ body{
 					height: 100%;
 					div{
 						&.item{
-							img{
-								width: 100%;
+							figure{
+								img{
+									width: 100%;
+								}
+								figcaption{
+									h1{
+										position: absolute;
+										top: 0px;
+										color: #fff;
+										right: 70px;
+									}
+									p{
+										position: absolute;
+										top: 70px;
+										right: 50px;
+										color: #fff;
+										width: 200px;
+									}
+									@media screen and (max-width: 720px){
+										display: none;
+									}
+								}
 							}
 						}
 					}
 				}
 			}
 		}
-		div{
-			&#contiene-nosotros{
-				padding-top: 20px;
-				margin: 0 auto;
-				width: 1000px;
-			}
-			h2{
-				text-align: center;
-				padding-bottom: 20px;
+	}
+	div{
+		&.container{
+			height: 700px;
+		}
+		section{
+			div{
+				&#contiene-nosotros{
+					padding-top: 20px;
+					margin: 0 auto;
+					width: 85%;
+					@media screen and (max-width: 520px){
+						p#acerca-dos{
+							display: none;
+						}
+					}
+				}
+				&#contiene-contacto{
+					width: 92%;
+					form{
+						div{
+							position: relative;
+							left: 20%;
+							width: 100%;
+							height: 50px;
+							display: block;
+							margin: 0 auto;
+							input{
+								width: 60%;
+							}
+							label{
+								display: block;
+							}
+							textarea{
+								width:60%;
+								height: 50px;
+							}
+							&#d-enviar{
+								padding-top: 50px;
+								input{
+									width: 30%;
+									position: relative;
+									left: 15%;
+								}
+							}
+						}
+					}
+				}
+				h2{
+					text-align: center;
+					padding-bottom: 20px;
+				}
 			}
 		}
 	}
-
-	
 	footer{
-	height: 200px;
-	background-color: #64706c;
-
-		.columna{
-		color: #fff;
-		padding: 20px;
-		display: inline-block;
-		width: 33%;
-		vertical-align: top;
-
-			address { 
-	   		 display: block;
-	   		 font-style: italic;
-			}	
-
-			a{
-				
-			font-size: 20px;
-			color: #FFF;
-			padding: 10px;
-				
-			}	
-		}
-	}
-
+    	height: 200px;
+   	 	background-color: #64706c ;
+   	 	div{
+	        &.columna{
+	        color: #fff;
+	        padding: 20px;
+	        display: inline-block;
+	        width: 33%;
+	        vertical-align: top;
+	            address { 
+	                display: block;
+	                font-style: italic;
+	            }    
+	            a{
+	            font-size: 20px;
+	            color: #FFF;
+	            padding: 10px;
+	                
+	            }    
+	        }
+   	 	}
+    }
 }
